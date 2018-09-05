@@ -1,6 +1,7 @@
 #!/bin/bash
 
 module load Java/1.8.0_92
+module load bzip2/1.0.6-intel-2016b
 
 export BCFTOOLS_BIN="${HOME}/programmi/bcftools-1.9/local/bin/bcftools"
 export BWA_BIN="${HOME}/programmi/bwa-0.7.9a/bwa"
