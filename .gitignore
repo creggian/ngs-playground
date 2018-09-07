@@ -1,3 +1,5 @@
 software/*
 !software/.gitkeep
-*idx
+*.idx
+*.tbi
+*.gz

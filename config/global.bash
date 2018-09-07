@@ -4,8 +4,10 @@ module load Java/1.8.0_92
 module load bzip2/1.0.6-intel-2016b
 
 export BCFTOOLS_BIN="${HOME}/programmi/bcftools-1.9/local/bin/bcftools"
+export BGZIP_BIN="${HOME}/programmi/samtools-1.8/htslib-1.8/local/bin/bgzip"
 export BWA_BIN="${HOME}/programmi/bwa-0.7.9a/bwa"
 export GATK_BIN="java -Xmx4g -XX:+AggressiveOpts -jar ${HOME}/programmi/GATK-3.3/GenomeAnalysisTK.jar"
+export TABIX_BIN="${HOME}/programmi/samtools-1.8/htslib-1.8/local/bin/tabix"
 
 export REF_FASTA="${GENOMIC_PIPELINE}/extra/gatk-bundle/ucsc.hg19.fasta"
 
