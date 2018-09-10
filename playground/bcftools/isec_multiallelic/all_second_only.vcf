@@ -27,5 +27,5 @@
 ##INFO=<ID=SOR,Number=1,Type=Float,Description="Symmetric Odds Ratio of 2x2 contingency table to detect strand bias">
 ##contig=<ID=chr5,length=180915260,assembly=hg19>
 ##bcftools_isecVersion=1.9+htslib-1.9
-##bcftools_isecCommand=isec -c all -O v -C -w 1 -o all_second_only.vcf /u/creggian/programmi/ngs-playground/playground/bcftools/isec_multiallelic/../../../data/variant_ma_mixed_snponly.vcf.gz /u/creggian/programmi/ngs-playground/playground/bcftools/isec_multiallelic/../../../data/variant_ma_mixed.vcf.gz; Date=Fri Sep  7 18:13:56 2018
+##bcftools_isecCommand=isec -c all -O v -C -w 1 -o all_second_only.vcf /u/creggian/programmi/ngs-playground/playground/bcftools/isec_multiallelic/../../../data/variant_ma_mixed_snponly.vcf.gz /u/creggian/programmi/ngs-playground/playground/bcftools/isec_multiallelic/../../../data/variant_ma_mixed.vcf.gz; Date=Mon Sep 10 11:42:14 2018
 #CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	S01

@@ -27,6 +27,6 @@
 ##INFO=<ID=SOR,Number=1,Type=Float,Description="Symmetric Odds Ratio of 2x2 contingency table to detect strand bias">
 ##contig=<ID=chr5,length=180915260,assembly=hg19>
 ##bcftools_isecVersion=1.9+htslib-1.9
-##bcftools_isecCommand=isec -c all -O v -n=2 -w 1 -o all_common.vcf /u/creggian/programmi/ngs-playground/playground/bcftools/isec_multiallelic/../../../data/variant_ma_mixed.vcf.gz /u/creggian/programmi/ngs-playground/playground/bcftools/isec_multiallelic/../../../data/variant_ma_mixed_snponly.vcf.gz; Date=Mon Sep 10 11:42:14 2018
+##bcftools_isecCommand=isec -c none -O v -C -w 1 -o none_first_only.vcf /u/creggian/programmi/ngs-playground/playground/bcftools/isec_multiallelic/../../../data/variant_ma_mixed.vcf.gz /u/creggian/programmi/ngs-playground/playground/bcftools/isec_multiallelic/../../../data/variant_ma_mixed_snponly.vcf.gz; Date=Mon Sep 10 11:42:13 2018
 #CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	S01
 chr5	100063	rs3838786	TCAGATG	T,CCAGATG	10049.7	.	AC=1,1;AF=0.5,0.5;AN=2;BaseQRankSum=-0.484;ClippingRankSum=0.461;DB;DP=344;FS=0;MLEAC=1,1;MLEAF=0.5,0.5;MQ=60.44;MQ0=0;MQRankSum=-0.157;QD=29.21;ReadPosRankSum=-0.939;SOR=0.233	GT:AD:DP:GQ:PL	1/2:1,132,164:297:99:10087,5075,6038,5319,0,6059
